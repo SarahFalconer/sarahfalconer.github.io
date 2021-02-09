@@ -1,13 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 import ReactCV from "react-cv";
+import profile from "./parts/profile";
+import education from "./parts/education";
+import career from "./parts/career";
+import conferences from "./parts/conferences";
+import projects from "./parts/projects";
+import otherQualifications from "./parts/other-qualifications";
+import volunteering from "./parts/volunteering";
 
 function App() {
     return (
         <ReactCV
             personalData={{
-                name: "Sarah Falconer",
-                title: "Ph.D Engineering",
+                name: "Dr. Sarah Falconer",
                 image: "https://robohash.org/fhdskfhdsjf.png",
                 contacts: [
                     {type: "email", value: "sarahelizabethfalconer@gmail.com"},
@@ -16,14 +21,13 @@ function App() {
                 ]
             }}
             sections={[
-                {
-                    type: "text",
-                    title: "Profile",
-                    content: "An enthusiastic and persistent worker in both individual and team-based tasks." +
-                        " I thoroughly enjoy all aspects of research, data analysis, and presenting new results and techniques." +
-                        " I strive to perform well within groups and individually, and have excellent management and communication skills.",
-                    icon: "usertie"
-                }
+                profile,
+                education,
+                career,
+                conferences,
+                projects,
+                otherQualifications,
+                volunteering
             ]}
             branding={false}
         />
