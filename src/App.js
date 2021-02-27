@@ -13,7 +13,7 @@ function App() {
         <ReactCV
             personalData={{
                 name: "Dr. Sarah Falconer",
-                image: "https://robohash.org/fhdskfhdsjf.png",
+                image: "/sarah-256.png",
                 contacts: [
                     {type: "email", value: "sarahelizabethfalconer@gmail.com"},
                     {type: "location", value: "Sheffield, UK"},
