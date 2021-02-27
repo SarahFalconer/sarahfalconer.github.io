@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f0e0f8 !important;
 }
 
 code {
@@ -13,5 +14,9 @@ code {
 }
 
 section > main > div > div:first-child {
+  background-color: #980fff !important;
+}
+
+h4 > span:first-child {
   background-color: #980fff !important;
 }
