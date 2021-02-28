@@ -22,7 +22,7 @@ export default {
                     showed that the new surrogate better replicated the response of needle insertions through skin
                     tissue than conventional surrogates.<br/>
                     I used Microsoft Excel and specialised software to capture and process the vast quantities of data
-                    produced by my experiements.
+                    produced by my experiments.
                 </>
             )
         },
